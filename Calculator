@@ -1,0 +1,21 @@
+""" Program to use if else and elif for calculator application"""
+e=input("Enter first number")
+f=input("Enter second number")
+d=input("1.additiion\n 2.subtraction\n 3.Multiplication\n 4.division\n 5.reminder\n 6. floor division ")
+c=int(d)
+a= int(e)
+b=int(f)
+if c == 1:
+  print(a+b)
+elif c == 2 :
+  print(a-b)
+elif c == 3 :
+  print(a*b)
+elif c == 4 :
+  print(a/b)
+elif c==5 :
+  print(a%b)
+elif c==6 :
+  print(a//b)
+else :
+  print("Invalid opeartion")
