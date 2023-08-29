@@ -1,0 +1,91 @@
+#1
+#Arithmetic Operations
+a=50
+b=3
+print(a+b) #addition
+print(a-b) #subtraction
+print(a*b) #multiplication
+print(a/b) #division
+print(a%b) #reminder
+print(a**b) #exponenet
+print(a//b) #floor division meaning the quotient will be rounded to the nearest integer value
+
+#2
+#Comparision operations
+a=5
+b=1
+if a>b: #greater than
+  print("a is greater than b")
+elif a<b: #less than
+  print("b is greater than a")
+else :
+  print("hi")
+
+#3
+a=5
+b=10
+#result will be false
+print(a>b) #greater than
+#result will be true
+print(a<b) #less than
+#result will be false
+print(a>=b) #greater than or equal to
+#result will be true
+print(a<=b) #less than or equal to
+#result will be false
+print(a==b) #equal to
+#result will be true
+print(a!=b) #not equal to
+
+#4
+e=1
+f=0
+print(e and f) # and operator
+print(e or f) # or operator
+print(not f) # not operator
+
+#5
+a= 5
+b= 10
+print(a&b) #and
+print(a|b) #or
+print(~b) #not
+print(a^b) #xor
+print(b>>1) #right shift
+print(a<<1) #left shift
+
+#6
+# Examples of Assignment Operators
+a = 10
+# Assign value
+b = a
+print(b)
+# Add and assign value
+b += a
+print(b)
+# Subtract and assign value
+b -= a
+print(b)
+# multiply and assign
+b *= a
+print(b)
+# bitwise lishift operator
+b <<= a
+print(b)
+
+#7
+a=5
+b=10
+c=b
+print(c is not b)
+print(c is not a)
+print(c is a)
+
+#8
+a=10
+b=20
+list=[20,30,10,15]
+if a not in list :
+  print("a is not present in list")
+else :
+  print("a is present in  list")
