@@ -1,0 +1,18 @@
+#given question
+emp= ["John",102,"USA"]
+Dep1=["CS", 10]
+Dep2=["IT",11]
+HOD_CS = [10,"Mr.Holding"]
+HOD_IT=[11,"Mr. Bewon"]
+#code
+print("printing employee data...")
+print("Name : {0}, ID:{1} ,Country:{2}".format(emp[0],emp[1],emp[2]))
+print("printing department...")
+print("Department 1:")
+print("Name : {0}, ID : {1}".format(Dep1[0],Dep1[1]))
+print("Department 2:")
+print("Name : {0}, ID : {1}".format(Dep2[0],Dep2[1]))
+print("HOD Deatils....")
+print("HOD Name:{0} , Id : {1}".format(HOD_CS[0],HOD_CS[1]))
+print("HOD Name:{0} , Id : {1}".format(HOD_IT[0],HOD_IT[1]))
+print("{0} {1} {2} {3} {4}".format(type(emp),type(Dep1),type(Dep2),type(HOD_CS),type(HOD_IT)))
