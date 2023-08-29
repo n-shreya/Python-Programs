@@ -1,0 +1,42 @@
+#1
+print("Hello, World!")
+#2
+x="SHREYA"
+y=20.26
+print(x)
+print(y)
+type(y)
+type(x)
+#3
+x="Awesome"
+print("Python is",x) # or give +x instead of comma
+#4
+x="Python is "
+y="awesome."
+print(x+y) # we can add two strings, two integers, two float numbers, but we cannot add one float one integer
+#5
+x=1
+y=3.5
+z=1j # for complex
+print(type(x))
+print(type(y))
+print(type(z))
+#6
+x=input("Enter your name:")
+print(x)
+#7
+x=input()
+y=input()
+sum=int(x)+int(y)
+print(sum)
+#8
+x=input()
+y=input()
+sum=float(x)+float(y)
+print(sum)
+#9
+a=10
+b=10
+if a>b:print(a)
+elif b>a:print(b)
+else:print(a+b)
