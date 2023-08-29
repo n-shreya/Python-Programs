@@ -1,0 +1,44 @@
+#1
+x=("hi","bye",23)
+print(type(x))
+y=("apple",'mango','cherry')
+z=x+y
+print(z)
+
+#2
+#tuple declaration using "tuple"
+tuple1=tuple((1,5,3,12))
+print(tuple1)
+
+#3
+tuple2=tuple1*3
+print(tuple2)
+
+#4
+tuple1=(1,5,6,9)
+y=list(tuple1)
+y.insert(2,15)
+tuple1=tuple(y)
+print(tuple1)
+
+#5
+#joining tuple
+tuple1=(1,5,6,9)
+tuple2=tuple1+tuple1
+print(tuple2)
+
+#7
+#tuple indexing
+y=tuple2.index(1)
+print(y)
+z=tuple2.count(1)
+print(z)
+
+#8
+#tuple to list and list to tuple
+x=("hubli","belgaum","bangalore")
+print(x)
+y=list(x)
+y[2]="mumbai"
+x=tuple(y)
+print(x)
