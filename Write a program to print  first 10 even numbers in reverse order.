@@ -1,0 +1,8 @@
+#Write a program to print  first 10 even numbers in reverse order
+lis1=[]
+n=int(input("enter the number"))
+for i in range(n):
+    if(i%2==0):
+        lis1.append(i)
+lis1.sort(reverse=True)
+print(lis1)
