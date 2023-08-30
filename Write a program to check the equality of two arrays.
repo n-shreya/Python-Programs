@@ -1,0 +1,4 @@
+tuple1=("apple","banana","cherry","date")
+tuple2=("apple","banana","cherry","date")
+if(tuple1==tuple2): print("They are equal")
+else: print("They are not equal")
