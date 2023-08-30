@@ -1,0 +1,7 @@
+list1=[]
+n=int(input("How many entries of names you want to make:"))
+for i in range(n):
+    x=input("Enter the names you want:")
+    list1.append(x)
+for j in range(n):
+    print("Hello {0},How are you?".format(list1[j]))
