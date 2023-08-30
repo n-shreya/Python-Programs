@@ -1,0 +1,7 @@
+#tuple1=(1,2,3,2,4,2,5,2,6,2,7,2,8,2,9,2)
+tuple1=(1,2,3,4,5,6,7,8,9,1)
+tuple2=tuple1
+z=set(tuple1)
+tuple1=tuple(z)
+print(tuple1)
+print(tuple1!=tuple2)
