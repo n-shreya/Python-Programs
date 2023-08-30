@@ -1,0 +1,22 @@
+a=int(input("Enter a number"))
+flag = 0
+
+if a == 1:
+    print(a, "is not a prime number")
+elif a > 1:
+    for i in range(2, a):
+        if (a % i) == 0:
+            flag = 1
+            break
+    if flag==1 :
+        print(a, "is not a prime number")
+        if(a%3==0 ):
+            print("divisible by 3")
+        if(a%7 == 0):
+            print("divisible by 7")
+        if(a%9 == 0):
+            print("divisible by 9")
+        if(a%11 == 0):
+            print("divisible by 11")
+    else:
+        print(a, "is a prime number")
