@@ -1,0 +1,12 @@
+#Write a program to separate odd numbers and even numbers from a given array
+
+lis1=[1,12,15,14,20,1,8,9,80,5,0]
+lis2=[]
+lis3=[]
+for i in range(len(lis1)):
+    if(lis1[i]%2==0):
+        lis2.append(lis1[i])
+    else:
+        lis3.append(lis1[i])
+print(lis2)
+print(lis3)
