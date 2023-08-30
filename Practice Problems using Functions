@@ -1,0 +1,126 @@
+#Write a program to print first 10 natural numbers using functions.
+def natural_number(int):
+    for i in range(1,n+1):
+        print(i)
+    return 
+n=int(input("Enter the number:"))
+natural_number(n)
+
+
+#Write a program to print Fibonacci series using functions.
+def fibonacci(int):
+    list1=[0,1]
+    n=0
+    for i in range(num-2):
+        a=list1[i]+list1[i+1]
+        list1.append(a)
+    return(list1)
+
+num=int(input("Enter the number of fibonacci series elements you want"))
+list2=fibonacci(num)
+print(list2)
+
+
+#Write a program to find a factorial of first 10 odd numbers using functions.
+def factorial(fact,n):
+    for i in range(1,n+1):
+        fact=fact*i
+    return fact
+    
+fact=1
+n=int(input("Enter number:"))
+fact=factorial(fact,n)
+print(fact)
+
+
+#Write a program to print first 10 odd numbers.
+def odd(int):
+    for i in range(n):
+        if(i%2!=0):
+            print(i)
+            
+n=int(input("Enter the number:"))
+odd(n)
+
+
+#Write a program to print  first 10 even numbers in reverse order using functions.
+def even_rev(int):
+    lis1=[]
+    for i in range(n):
+        if(i%2==0):
+            lis1.append(i)
+    lis1.sort(reverse=True)
+    return(lis1)
+
+n=int(input("Enter the number:"))
+lis2=even_rev(n)
+print(list2)
+
+
+#Write a program to arrange numbers in half ascending and half descending order using functions.
+def halfascending_halfdecending(list):
+    list2=[] #ascending
+    list3=[] #decending
+    a=len(list1)//2
+    for i in range(a):
+        list2.append(list1[i])
+    print(list2)
+    for j in range(a,len(list1)):
+        list3.append(list1[j])
+    list2.sort(reverse=False)
+    print(list2)
+    list3.sort(reverse=True)
+    print(list3)
+    
+list1=[1,2,3,4,5,6,9,8,11]
+halfascending_halfdecending(list1)
+
+
+#Write a program to separate odd numbers and even numbers from a given array using functions.
+def odd_even(list):
+    list2=[]
+    list3=[]
+    for i in range(len(list1)):
+        if(list1[i]%2==0):
+            list2.append(list1[i])
+        else:
+            list3.append(list1[i])
+    print(list2)
+    print(list3)
+    
+list1=[1,12,15,14,20,1,8,9,80,5,0]
+odd_even(list1)
+
+
+#Write a program to accept 10 numbers from user and display their averages using functions.
+def average(list):
+    sum=0
+    for i in range(len(list1)):
+        sum+=list1[i]
+    avg=sum/len(list1)
+    return avg
+
+lis1=[15,15,5,5,5]
+average(lis1)
+
+
+#Write a program to display all the numbers which are divisible by 11 but not by 2 between 100 and 500 using functions.
+def divisible():
+    for i in range(100,500):
+        if(i%11==0 and i%2!=0):
+            print(i)
+divisible()
+
+
+#Write a program that keep on accepting numbers from the user until user enters 00. Display factorial of entered numbers using functions.
+def fact_untilzero():
+    while True:
+        n=int(input("Enter number that you want "))
+        if(n==0):
+            break
+        fact=1
+        for i in range(1,n+1) :
+            fact=fact*i
+        print("Factorial is {0}".format(fact))
+        
+fact_untilzero()
