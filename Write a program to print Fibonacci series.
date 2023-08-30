@@ -1,0 +1,8 @@
+#Write a program to print Fibonacci series
+lis1=[0,1]
+num=int(input("Enter the number of fibonacci series elemnts you want"))
+n=0
+for i in range(num-2):
+    a=lis1[i]+lis1[i+1]
+    lis1.append(a)
+print(lis1)
