@@ -1,0 +1,6 @@
+sum=0
+list1=[15,15,5,5,5]
+for i in range(len(list1)):
+    sum+=list1[i]
+avg=sum/len(list1)
+print(avg)
