@@ -1,0 +1,20 @@
+list1=[ ]
+a={}
+b={}
+n=int(input("Enter number of elements you want in the list:"))
+for i in range(n):
+    a=int(input("Enter the element you want to add to list:"))
+    list1.append(a)
+list2=[]
+list3=[]
+for i in range(len(list1)):
+    if(list1[i]%2==0):
+        list2.append(list1[i])
+    else:
+        list3.append(list1[i])
+a=set(list2)
+list2=list(a)
+b=set(list3)
+list3=list(b)
+print("even list is " , list2)
+print("odd list is " , list3)
