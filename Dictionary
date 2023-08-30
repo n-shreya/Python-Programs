@@ -1,0 +1,46 @@
+#declaration of dictionary 
+dict1={"Name":"Shreya","Age":"20","Gender":"Female"}
+print(dict1)
+print(type(dict1))
+
+#declaration using dict keyword
+dict2=dict(fruit = "banana",desert = "Icecream")
+print(dict2)
+
+#clearing dict2
+dict2=dict(fruit = "banana",desert = "Icecream")
+print(dict2)
+dict2.clear()
+print(dict2)
+
+#copying dict2 in dict3
+dict2=dict(fruit = "apple",desert = "Icecream")
+print(dict2)
+dict3=dict2.copy()
+print(dict3)
+
+#using from keys
+x = ('key1', 'key2', 'key3')
+y = ('shreya')
+thisdict = dict.fromkeys(x, y)
+print(thisdict)
+
+#get returns the value or the data stored for a keyname
+dict2=dict(fruit = "apple",desert = "Icecream")
+c=dict2.get("fruit")
+print(c)
+
+#using items in dictionary
+dict1={"Name":"Shreya","Age":"20","Gender":"Female"}
+x = dict1.items()
+print(x)
+
+#using values in dictionary
+dict1={"Name":"Shreya","Age":"20","Gender":"Female"}
+x = dict1.values()
+print(x)
+
+#using keys in dictionary
+dict1={"Name":"Shreya","Age":"20","Gender":"Female"}
+x = dict1.keys()
+print(x)
