@@ -1,0 +1,23 @@
+import random
+x=random.randint(1,99)
+print(x)
+
+#if float value is required
+import random
+a=random.random()#gives a float value betweem 0 and 1
+print(a)
+
+#shuffling
+import random
+mylist=["apple","pineapple","cherry","mango"]
+print(mylist)
+random.shuffle(mylist)
+print(mylist)
+
+#giving seed value so that the output doesnt change after running the program everytime
+import random
+random.seed(15)
+print(random.random())
+import random
+mylist=["apple","pineapple","cherry","mango"]
+print(random.choice(mylist))
