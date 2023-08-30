@@ -1,0 +1,14 @@
+#Write a program to arrange numbers in half ascending and half descending order .
+list1=[1,2,3,4,5,6,9,8,11]
+list2=[] #ascending
+list3=[] #decending
+a=len(list1)//2
+for i in range(a):
+    list2.append(list1[i])
+print(list2)
+for j in range(a,len(list1)):
+    list3.append(list1[j])
+list2.sort(reverse=False)
+print(list2)
+list3.sort(reverse=True)
+print(list3)
