@@ -1,0 +1,6 @@
+list1=[]
+n=int(input("How many entries of elements you want to make:"))
+for i in range(n):
+    x=int(input("Enter the elements you want:"))
+    list1.append(x)
+print(list1)
