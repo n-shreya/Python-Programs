@@ -1,0 +1,5 @@
+list1=["RAM","ROM","CPU","CD"]
+for x in range(len(list1)):
+  if(list1[x]=="CPU"):
+    continue
+  print(list1[x])
