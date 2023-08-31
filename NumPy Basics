@@ -1,0 +1,155 @@
+#single-dimensionsal array
+import numpy as np
+n1=np.array([10,20,30,40])
+n1
+
+#multi-dimensional array
+import numpy as np
+n1=np.array([[10,20,30,40],[1,2,3,4]])
+n1
+
+#initializing numpy array with zeros
+import numpy as np
+n1=np.zeros((1,2))
+n1
+
+#initializing numpy array with same number
+import numpy as np
+n1=np.full((2,2),10)
+n1
+
+#initializing numpy array within a range
+import numpy as np
+n1=np.arange(10,20)
+n1
+
+#initializing numpy array within a range
+import numpy as np
+n1=np.arange(10,50,5)
+n1
+
+#initializing numpy array with random numbers
+import numpy as np
+n1=np.random.randint(1,100,5)
+n1
+
+#checking the shape of numpy array
+import numpy as np
+n1=np.array([[1,2,3,4],[5,6,7,8]])
+n1.shape
+
+#checking the shape of numpy array
+import numpy as np
+n1=np.array([[1,2,3,4],[5,6,7,8]])
+n1.shape
+n1
+
+#checking the shape of numpy array
+import numpy as np
+n1=np.array([[1,2,3,4],[5,6,7,8]])
+n1.shape=(4,2)
+n1
+
+#joining numpy arrays
+import numpy as np
+n1=np.array([10,20,30])
+n2=np.array([40,50,60])
+np.vstack((n1,n2))
+
+#joining numpy arrays
+import numpy as np
+n1=np.array([10,20,30])
+n2=np.array([40,50,60])
+np.hstack((n1,n2))
+
+#joining numpy arrays
+import numpy as np
+n1=np.array([10,20,30])
+n2=np.array([40,50,60])
+np.column_stack((n1,n2))
+
+#numpy intersection
+import numpy as np
+n1=np.array([10,20,30,40,50,60])
+n2=np.array([50,60,70,80,90])
+np.intersect1d(n1,n2)
+
+#numpy difference
+import numpy as np
+n1=np.array([10,20,30,40,50,60])
+n2=np.array([50,60,70,80,90])
+np.setdiff1d(n1,n2)
+
+#numpy difference
+import numpy as np
+n1=np.array([10,20,30,40,50,60])
+n2=np.array([50,60,70,80,90])
+np.setdiff1d(n2,n1)
+
+#addition of numpy arrays
+import numpy as np
+n1=np.array([10,20])
+n2=np.array([30,40])
+np.sum([n1,n2])
+
+#addition of numpy arrays with axis=0
+import numpy as np
+n1=np.array([10,20])
+n2=np.array([30,40])
+np.sum([n1,n2],axis=0)
+
+#addition of numpy arrays with axis=1
+import numpy as np
+n1=np.array([10,20])
+n2=np.array([30,40])
+np.sum([n1,n2],axis=1)
+
+#basic arithematic operations
+#addition
+import numpy as np
+n1=np.array([10,20,30,40])
+n1=n1+1
+n1
+
+#basic arithematic operations
+#subtraction
+import numpy as np
+n1=np.array([10,20,30,40])
+n1=n1-1
+n1
+
+#basic arithematic operations
+#multiplication
+import numpy as np
+n1=np.array([10,20,30,40])
+n1=n1*2
+n1
+
+#basic arithematic operations
+#division
+import numpy as np
+n1=np.array([10,20,30,40])
+n1=n1/2
+n1
+
+#mean
+import numpy as np
+n1=np.array([10,20,30,40,50,60,70])
+np.mean(n1)
+
+#median
+import numpy as np
+n1=np.array([5,10,15,20,25,30,35,40])
+np.median(n1)
+
+#standard deviation
+import numpy as np
+n1=np.array([1,5,3,100,4,48])
+np.std(n1)
+
+#numpy save & load
+import numpy as np
+n1=np.array([10,20,30,40,50,60])
+np.save('my_numpy',n1) #saving numpy array
+n2=np.load('my_numpy.npy') #loading numpy array
+n2
