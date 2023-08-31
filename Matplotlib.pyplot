@@ -1,0 +1,36 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x=np.linspace(0,15,20)
+m=0.6
+c=25
+y=m*x+c
+plt.plot(x,y)
+plt.show
+
+#non linear graph
+x=np.linspace(-15,13,80)
+y=x*x*x+2*x*x+3*x+5
+plt.plot(x,y)
+plt.show
+
+# importing the required libraries
+import matplotlib.pyplot as plt
+import numpy as np
+
+# define data values
+x = np.array([1, 2, 3, 4]) # X-axis points
+y = x*2 # Y-axis points
+
+plt.plot(x, y) # Plot the chart
+plt.show() # display
+
+x = np.array([1, 2, 3, 4]) # X-axis points
+y = x*2 # Y-axis points
+
+plt.plot(x, y) # Plot the chart
+plt.show() # display
+
+x=np.linspace(0,10,100)
+y=np.sin(x)
+plt.plot(x,y)
+plt.show
