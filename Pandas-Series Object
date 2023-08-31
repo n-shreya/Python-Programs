@@ -1,0 +1,73 @@
+#series object
+import pandas as pd
+s1=pd.Series([1,2,3,4,5])
+s1
+
+#series object
+import pandas as pd
+s1=pd.Series([1,2,3,4,5])
+s1
+type(s1)
+
+#changing the index of the array in series object
+import pandas as pd
+s1=pd.Series([1,2,3,4,5],index=['a','b','c','d','e'])
+s1
+
+#series object from dictionary 
+import pandas as pd
+s1=pd.Series({'a':10,'b':20,'c':30,'d':40})
+s1
+
+#changing the index values of the series object
+import pandas as pd
+s1=pd.Series({'a':10,'b':20,'c':30},index=['b','c','d','a'])
+s1
+
+#extracting single element
+import pandas as pd
+s1=pd.Series([1,2,3,4,5,6,7,8,9])
+s1[3]
+
+#extracting elements from back
+import pandas as pd
+s1=pd.Series([1,2,3,4,5,6,7,8,9])
+s1[-3:]
+
+#extracting sequence of elements
+import pandas as pd
+s1=pd.Series([1,2,3,4,5,6,7,8,9])
+s1[:4]
+
+#adding scalar value to series element
+import pandas as pd
+s1=pd.Series([1,2,3,4,5,6,7,8,9])
+s1+5
+
+#subtracting scalar value to series element
+import pandas as pd
+s1=pd.Series([1,2,3,4,5,6,7,8,9])
+s1-100
+
+#multiplying scalar value to series element
+import pandas as pd
+s1=pd.Series([1,2,3,4,5,6,7,8,9])
+s1*2
+
+#adding two series objects
+import pandas as pd
+s1=pd.Series([1,2,3,4,5,6,7,8,9])
+s2=pd.Series([10,20,30,40,50,60,70,80,90])
+s1+s2
+
+#subtracting two series objects
+import pandas as pd
+s1=pd.Series([1,2,3,4,5,6,7,8,9])
+s2=pd.Series([10,20,30,40,50,60,70,80,90])
+s1-s2
+
+#multiplying two series objects
+import pandas as pd
+s1=pd.Series([1,2,3,4,5,6,7,8,9])
+s2=pd.Series([10,20,30,40,50,60,70,80,90])
+s1*s2
