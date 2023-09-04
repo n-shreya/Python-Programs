@@ -1,0 +1,11 @@
+def multiply(limit):
+    sum=0
+    for n in range(0,limit+1):
+        if(n%3==0):
+            sum+=n
+        elif(n%5==0):
+            sum+=n
+    return sum
+limit=int(input("Enter the limit:"))
+q=multiply(limit)
+print(q)    
