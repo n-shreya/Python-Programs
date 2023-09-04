@@ -1,0 +1,19 @@
+lis1=[[0,0,0],[0,0,0]]
+lis2=[[0,0],[0,0],[0,0]]
+lis3=[[0,0],[0,0]]
+
+for i in range (0,2):
+    for j in range (0,3):
+        a=int(input())
+        lis1[i][j]=a
+print(lis1)
+for i in range (0,3):
+    for j in range (0,2):
+        a=int(input())
+        lis2[i][j]=a
+print(lis2)
+for i in range(0,2):
+    for j in range(0,3):
+        for k in range(0,2):
+            lis3[i][k]+=lis1[i][j]*lis2[j][k]
+print(lis3)
